@@ -1,11 +1,57 @@
-body {
-    padding: 0;
-    margin: 0;
+body {    
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw;   
+    background-color: rgb(25, 33, 41);  
 }
 
-#form-container {
+#form-container {    
+    border: 2px solid rgb(67, 163, 230);
+    border-radius: 2px;
+    width: 250px;
+    padding: 20px; /* me da el tamaño global */
+    box-sizing: border-box;    
+    font-weight: 700;
+    color: rgb(255, 255, 255); 
     margin: auto;
+   
+    
+    
 }
+
+#form-container input, textarea {
+    border: 1px solid rgb(67, 163, 230);  
+    
+}
+
+label {
+   margin-bottom: 10px;
+      
+}
+
+
+
+#form-container button {
+   background-color: rgb(67, 163, 230);
+   border: none;
+   border-radius: 10px;   
+   color: rgb(255, 255, 255);  
+   height: 25px;
+   margin-top: 3px;
+
+}
+
+
+.question {
+    font-style: italic;
+    font-weight: 100;
+    
+}
+
+
+
+input[type="text"], input[type="email"]{
+    margin-top: 4px;
+    margin-bottom: 3px;
+
+}
+
